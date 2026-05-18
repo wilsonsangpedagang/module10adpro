@@ -9,6 +9,8 @@ fn main() {
         println!("Davin's Komputer: done!");
     });
 
+    println("Davin's Komputer: waiting for timer... asd")
+
     // Drop the spawner so that our executor knows it is finished and won't
     // receive more incoming tasks to run.
     drop(spawner);
